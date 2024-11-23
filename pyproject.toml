@@ -1,0 +1,8 @@
+[project]
+name = 'src'
+version = '0.0.1'
+description = 'An Mlops project for productionizing models'
+authors = [{ name = 'Rhythm Roy', email = 'rhythmroy03@gmail.com' }]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
